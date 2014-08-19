@@ -1,0 +1,25 @@
+@font-face {
+	font-family: PTSans;
+	src: url("../fonts/PTSans.woff") format('woff');
+}
+
+@font-face {
+	font-family: MyriadPro-Semibold;
+	src: url("../fonts/MyriadPro-Semibold.otf") format('opentype');
+}
+@font-face {
+	font-family: MyPeriadRegular;
+	src: url("../fonts/MyriadPro-Regular.ttf");
+}
+@font-face {
+	font-family: m-brody;
+	src: url("../fonts/m-brody.ttf");
+}
+@font-face {
+	font-family: RobotoCondensed-Regular;
+	src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+@font-face {
+	font-family: PTsansbold;
+	src: url("../fonts/PTsans bold.ttf");
+}
