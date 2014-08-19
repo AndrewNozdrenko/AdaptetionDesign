@@ -858,19 +858,19 @@ footer p, a{
 		display: block;
 		margin: 40px 0 0 0;
 		background: #000;
-		height: 340px;
-
-		background: url("../images/texture.png") no-repeat;
-		-webkit-background-size: 100% 100%;
-
+		height: 355px;
+		background-image: -webkit-radial-gradient(99% 424px, circle contain, rgba(255, 255, 255, 0.3), #000 607px);
+		background-image: -moz-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
+		background-image: -o-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
 		padding-top: 10px;
 	}
 
 	.phone-for-smile img{
 		margin: 0 auto;
 		display: block;
-
-		width: 84%;
+		position: relative;
+		z-index: 2;
+		width: 94%;
 	}
 
 	.phone-for-smile p{
@@ -878,15 +878,19 @@ footer p, a{
 		margin: 15px auto;
 		display: block;
 		width: 100px;
+		position: relative;
+		z-index: 2;
 	}
 
 	.phone-for-smile div{
 		width: 100%;
-		height: 335px;
-		margin: -10px 0 0 0;
-		background-image: -webkit-radial-gradient(98% 265px, circle contain, rgba(255, 255, 255, 0.4), #000 348px);
-		background-image: -moz-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
-		background-image: -o-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
+		height: 350px;
+		margin: 5px 0 0 0;
+		background: url("../images/texture.png") no-repeat;
+		-webkit-background-size: 100% 100%;
+		position: absolute;
+		z-index: 0;
+		opacity: 0.7;
 	}
 
 	.text-arrow{
@@ -912,7 +916,9 @@ footer p, a{
 	.terribile-history img{
 		float: left;
 		width: 18%;
-	}
+	
+		margin: 0px 10px 0 0;
+}
 
 	.terribile-history p{
 		color: #d0a22b;
