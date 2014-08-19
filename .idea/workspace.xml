@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca515c4-c9f5-4cd0-903d-c36aca418472" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\default-user\Desktop\design\repository\AdaptetionDesign\images\logo.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AdaptetionDesign.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +30,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="32" selection-start="350" selection-end="350" vertical-scroll-proportion="-1.8129497" vertical-offset="1481" max-vertical-offset="2176">
+            <state line="3" column="17" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0733813" vertical-offset="0" max-vertical-offset="2210">
               <folding />
             </state>
           </provider>
@@ -39,7 +39,7 @@
       <file leaf-file-name="css.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1153" column="22" selection-start="18551" selection-end="18551" vertical-scroll-proportion="0.0" vertical-offset="15157" max-vertical-offset="19754">
+            <state line="1031" column="26" selection-start="16922" selection-end="16922" vertical-scroll-proportion="0.0" vertical-offset="16276" max-vertical-offset="20077">
               <folding />
             </state>
           </provider>
@@ -153,7 +153,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -237,14 +237,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1153" column="22" selection-start="18551" selection-end="18551" vertical-scroll-proportion="0.0" vertical-offset="15157" max-vertical-offset="19754">
+        <state line="1031" column="26" selection-start="16922" selection-end="16922" vertical-scroll-proportion="0.0" vertical-offset="16276" max-vertical-offset="20077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="32" selection-start="350" selection-end="350" vertical-scroll-proportion="-1.8129497" vertical-offset="1481" max-vertical-offset="2176">
+        <state line="3" column="17" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0733813" vertical-offset="0" max-vertical-offset="2210">
           <folding />
         </state>
       </provider>
