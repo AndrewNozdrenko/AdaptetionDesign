@@ -4,9 +4,11 @@
 	padding: 0;
 	margin: 0;
 }
-p,span,h2{
+
+p, span, h2{
 	font-family: PTSans;
 }
+
 a{
 	text-decoration: none;
 }
@@ -18,6 +20,7 @@ a{
 .phone-for-smile{
 	display: none;
 }
+
 .phone-for-smile a{
 	color: #bcbaab;
 	text-decoration: underline;
@@ -62,7 +65,7 @@ a{
 	background: #33333b;
 }
 
-.wrapper img[src*='logo'] {
+.wrapper img[src*='logo']{
 	margin-top: -12px;
 	float: left;
 }
@@ -72,7 +75,7 @@ a{
 	margin: 100px 0px 0px 40px;
 	font: 28px m-brody;
 	color: #626570;
-	text-shadow: 2px 2px 2px rgba(0,0,0,0.9);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 	background: url("../images/arrow.png") no-repeat 112px 17px;
 	width: 147px;
 }
@@ -101,7 +104,7 @@ a{
 	color: #d0a22b;
 	font-size: 60px;
 	line-height: 0.9;
-	text-shadow: 2px 2px 2px rgba(0,0,0,0.9);
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
 	width: 350px;
 }
 
@@ -124,7 +127,7 @@ a{
 	background: url("../images/line.png") repeat-x;
 }
 
-.apper-think {
+.apper-think{
 	display: none;
 }
 
@@ -138,7 +141,6 @@ a{
 	background: #525152;
 }
 
-
 .devices{
 	float: right;
 	margin: -147px 0 0 0;
@@ -149,36 +151,34 @@ a{
 	margin: 164px 0;
 }
 
-
 .buttons button{
 	width: 204px;
 	height: 67px;
-	border: none; 
+	border: none;
 	background: -moz-linear-gradient(top, #b68d15, #e8d87c);
 	background: -webkit-linear-gradient(top, #b68d15, #e8d87c);
 	background: -o-linear-linear-gradient(top, #b68d15, #e8d87c);
-    background: linear-gradient(top, #b68d15, #e8d87c);
+	background: linear-gradient(top, #b68d15, #e8d87c);
 	border: 1px solid #edb47a;
 	border-radius: 10px;
- 	box-shadow: 0 2px 1px rgba(0,0,0,0.9);
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.9);
 
-    
-	display:-webkit-box;
-	-webkit-box-orient:horizontal;
-	-webkit-box-align:center;
-	-webkit-box-pack:center;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-align: center;
+	-webkit-box-pack: center;
 
 }
 
 .buttons a:active button{
-	    box-shadow:inset 0 2px 1px rgba(0,0,0,0.9);
+	box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.9);
 }
 
-@-moz-document url-prefix() {
-	.buttons button {	
-		display:block;
+@-moz-document url-prefix(){
+	.buttons button{
+		display: block;
 	}
-	.buttons img{	
+	.buttons img{
 		float: left;
 	}
 	.black-background{
@@ -188,16 +188,16 @@ a{
 
 .buttons .gray{
 	background: -moz-linear-gradient(top, #9b9488, #c8c4bc);
-    
+
 	background: -webkit-linear-gradient(top, #9b9488, #c8c4bc);
-    background: -o-linear-linear-gradient(top, #9b9488, #c8c4bc);
-    background: linear-gradient(top, #9b9488, #c8c4bc);
-    
+	background: -o-linear-linear-gradient(top, #9b9488, #c8c4bc);
+	background: linear-gradient(top, #9b9488, #c8c4bc);
+
 	border: 1px solid #d0cbbd;
 }
 
 .buttons .gray p{
-		color: #9b9488;
+	color: #9b9488;
 }
 
 .buttons button img{
@@ -213,16 +213,15 @@ a{
 	line-height: 1.45;
 }
 
-.buttons button p{ 
-	font:25px 'MyriadPro-Semibold';
+.buttons button p{
+	font: 25px 'MyriadPro-Semibold';
 	color: #b58c14;
 }
 
-.buttons button span{ 
-	font:14px 'MyPeriadRegular' !important;
+.buttons button span{
+	font: 14px 'MyPeriadRegular' !important;
 	margin: 0 0 0 -51px;
 }
-
 
 .or{
 	margin: 5px 0;
@@ -232,7 +231,7 @@ a{
 
 .or:before{
 	content: "";
-	position:absolute;
+	position: absolute;
 	top: 20px;
 	left: -1px;
 	background: url("../images/line-for-or.png") repeat-x;
@@ -242,7 +241,7 @@ a{
 
 .or:after{
 	content: "";
-	position:absolute;
+	position: absolute;
 	top: 20px;
 	right: 0px;
 	background: url("../images/line-for-or.png") repeat-x;
@@ -255,7 +254,7 @@ a{
 	text-align: center;
 	overflow: hidden;
 	background: url("../images/shadow.png") no-repeat left bottom;
-	-webkit-background-size:100% 40px;
+	-webkit-background-size: 100% 40px;
 	padding-bottom: 40px;
 }
 
@@ -301,7 +300,7 @@ a{
 
 .horrible-story a{
 	color: #9a7920;
-	text-decoration:underline;
+	text-decoration: underline;
 	font-style: italic;
 }
 
@@ -315,10 +314,10 @@ footer{
 	margin: 0 auto;
 	padding: 40px 0;
 	overflow: hidden;
-	box-shadow: inset 0px 5px 5px rgba(0,0,0,0.8); 
+	box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
-footer p,a{
+footer p, a{
 	color: #7f7f87;
 	font-size: 20px;
 	margin: 0 0 25px 0;
@@ -341,15 +340,15 @@ footer p,a{
 }
 
 .social-network img{
-	margin:0 10px;
+	margin: 0 10px;
 }
 
 .social-network a{
 	margin: 0 20px;
 }
 
-@media only screen and (min-width:481px) and (max-width:768px) {
-	.wrapper img[src='images/logo.png'] {
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.wrapper img[src='images/logo.png']{
 		width: 30%;
 	}
 
@@ -362,12 +361,14 @@ footer p,a{
 		margin: 0;
 		left: 52px;
 		top: 37%;
-		text-shadow:none;
+		text-shadow: none;
 	}
-	.social {
+
+	.social{
 		margin: 32px 0 0 0;
 		float: right;
 	}
+
 	.terribile-history{
 		float: none;
 		margin: 115px auto 0 auto;
@@ -375,10 +376,10 @@ footer p,a{
 		overflow: visible;
 	}
 
-	.terribile-history span {
+	.terribile-history span{
 		position: relative;
 		top: -169px;
-		text-shadow:1px 1px 1px rgba(0,0,0,0.8);
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 	}
 
 	.terribile-history span:after{
@@ -389,15 +390,14 @@ footer p,a{
 	.terribile-history span:before{
 		width: 100%;
 		left: -289px;
-	
-}
 
-	.terribile-history p {
+	}
+
+	.terribile-history p{
 		font-size: 52px;
-	
-	
+
 		width: 100%;
-}
+	}
 
 	.terribile-history img{
 		float: left;
@@ -411,7 +411,7 @@ footer p,a{
 		background-image: -o-radial-gradient(98% 447px, circle contain, #fff, #000 752px);
 	}
 
-	.apper-think {
+	.apper-think{
 		display: block;
 		text-align: center;
 		font: 20px 'MyPeriadRegular';
@@ -422,8 +422,8 @@ footer p,a{
 		float: none;
 		margin: 84px 0;
 		width: 100%;
-	
-}
+
+	}
 
 	.buttons p{
 		line-height: 1.8;
@@ -433,20 +433,20 @@ footer p,a{
 	.buttons div{
 		width: 220px;
 		float: left;
-	
+
 		padding: 0px 7% 1px 7%;
-}
+	}
 
 	.or{
 		float: left;
 	}
 
-	.devices {
+	.devices{
 		float: right;
 		margin: 48px 0 0 0;
-	
+
 		width: 87%;
-}
+	}
 
 	.or{
 		margin: 78px 0px;
@@ -465,13 +465,13 @@ footer p,a{
 	.gray-block{
 		margin: 0px 1px 1px 1px;
 	}
-	
-	.horrible-story {
+
+	.horrible-story{
 		display: none;
 	}
 
 	.linege{
-		background:none;
+		background: none;
 	}
 
 	.linege div:nth-of-type(4){
@@ -482,18 +482,18 @@ footer p,a{
 		margin: 40px 22px 0 41px;
 	}
 
-	.social-network {
+	.social-network{
 		float: right;
 		margin-top: -84px;
 		width: 300px;
 		text-align: center;
 	}
 
-	.social-network a {
+	.social-network a{
 		margin: 2px 0 0 0;
 	}
 
-	.social-network img {
+	.social-network img{
 		margin: 7px 18px;
 	}
 
@@ -501,16 +501,15 @@ footer p,a{
 		padding: 40px 30px;
 	}
 
-	.mail {
+	.mail{
 		color: #949498;
 		padding: 10px 15px;
 	}
 
 }
 
-
-@media only screen and (min-width:321px) and (max-width:480px) {
-	.wrapper img[src='images/logo.png'] {
+@media only screen and (min-width: 321px) and (max-width: 480px){
+	.wrapper img[src='images/logo.png']{
 		display: none;
 	}
 
@@ -526,25 +525,24 @@ footer p,a{
 		background: #33333b;
 		border-radius: 0 0 20px 20px;
 
-		display:-webkit-box;
-		-webkit-box-align:center;
-		-webkit-box-pack:center;
+		display: -webkit-box;
+		-webkit-box-align: center;
+		-webkit-box-pack: center;
 
-		display:-moz-box;
-		-webkit-moz-align:center;
-		-webkit-moz-pack:center;
+		display: -moz-box;
+		-webkit-moz-align: center;
+		-webkit-moz-pack: center;
 	}
-	
+
 	.phone-for-smile{
 		display: block;
 		margin: 40px 0 0 0;
 		background: #000;
 		height: 455px;
 
-				
 		background: url("../images/texture.png") no-repeat;
 		-webkit-background-size: 100% 100%;
-	
+
 		padding-top: 10px;
 	}
 
@@ -563,26 +561,28 @@ footer p,a{
 	.phone-for-smile div{
 
 		width: 100%;
-		
 
 		height: 450px;
 
 		margin: -10px 0 0 0;
 
-		background-image: -webkit-radial-gradient(99% 424px, circle contain, rgba(255,255,255,0.3), #000 607px);
-		background-image: -moz-radial-gradient(98% 552px, circle contain, rgba(255,255,255,0.4), #000 607px);
-		background-image: -o-radial-gradient(98% 552px, circle contain, rgba(255,255,255,0.4), #000 607px);
+		background-image: -webkit-radial-gradient(99% 424px, circle contain, rgba(255, 255, 255, 0.3), #000 607px);
+		background-image: -moz-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
+		background-image: -o-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
 	}
 
 	.text-arrow{
 		display: none;
 	}
-	.social {
+
+	.social{
 		margin: 32px 0 0 4px;
 	}
+
 	.social img{
 		float: right;
 	}
+
 	.terribile-history{
 		float: none;
 		margin: 60px auto 0 auto;
@@ -590,10 +590,10 @@ footer p,a{
 		overflow: visible;
 	}
 
-	.terribile-history span {
+	.terribile-history span{
 		position: relative;
 		top: -78px;
-		text-shadow:1px 1px 1px rgba(0,0,0,0.8);
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 	}
 
 	.terribile-history span:after{
@@ -604,24 +604,23 @@ footer p,a{
 	.terribile-history span:before{
 		width: 100%;
 		left: -289px;
-	
+
 	}
 
-	.terribile-history p {
+	.terribile-history p{
 		font-size: 41px;
-	
-	
+
 		float: none;
 		width: 100%;
 		margin: 48px 0 0 0;
-}
+	}
 
 	.terribile-history img{
 		float: none;
-	
+
 		margin: 0 auto;
 		display: block;
-}
+	}
 
 	.gradient{
 		background-image: -webkit-radial-gradient(98% 447px, circle contain, #fff, #000 752px);
@@ -629,12 +628,12 @@ footer p,a{
 		background-image: -o-radial-gradient(98% 447px, circle contain, #fff, #000 752px);
 	}
 
-	.apper-think {
+	.apper-think{
 		display: block;
 		text-align: center;
 		font: 20px 'MyPeriadRegular';
 		color: #bcbaab;
-	
+
 		width: 441px;
 		margin: 0 auto;
 	}
@@ -642,59 +641,58 @@ footer p,a{
 	.buttons{
 		float: left;
 		margin: 94px 0 0 30%;
-	}	
+	}
 
-
-.buttons button{
+	.buttons button{
 		width: 204px;
 		height: 67px;
-		border: none; 
+		border: none;
 		background: -moz-linear-gradient(top, #b68d15, #e8d87c);
 		background: -webkit-linear-gradient(top, #b68d15, #e8d87c);
 		background: -o-linear-linear-gradient(top, #b68d15, #e8d87c);
-	    background: linear-gradient(top, #b68d15, #e8d87c);
+		background: linear-gradient(top, #b68d15, #e8d87c);
 		border: 1px solid #edb47a;
 		border-radius: 10px;
-	 	box-shadow: 0 2px 1px rgba(0,0,0,0.9);
+		box-shadow: 0 2px 1px rgba(0, 0, 0, 0.9);
 
-		display:-webkit-box;
-		-webkit-box-orient:horizontal;
-		-webkit-box-align:center;
-		-webkit-box-pack:center;
+		display: -webkit-box;
+		-webkit-box-orient: horizontal;
+		-webkit-box-align: center;
+		-webkit-box-pack: center;
 	}
 
 	.buttons a:active button{
-	    box-shadow:inset 0 2px 1px rgba(0,0,0,0.9);
+		box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.9);
 	}
 
-	@-moz-document url-prefix() {
-		.buttons button {	
-			display:block;
+	@-moz-document url-prefix(){
+		.buttons button{
+			display: block;
 		}
-		.buttons img{	
+		.buttons img{
 			float: left;
 		}
 		.black-background{
 			height: 440px;
 		}
 		.logo-smale{
-			-moz-box-sizing:border-box;
+			-moz-box-sizing: border-box;
 			padding: 20px;
 		}
 	}
 
 	.buttons .gray{
 		background: -moz-linear-gradient(top, #9b9488, #c8c4bc);
-	    
+
 		background: -webkit-linear-gradient(top, #9b9488, #c8c4bc);
-	    background: -o-linear-linear-gradient(top, #9b9488, #c8c4bc);
-	    background: linear-gradient(top, #9b9488, #c8c4bc);
-	    
+		background: -o-linear-linear-gradient(top, #9b9488, #c8c4bc);
+		background: linear-gradient(top, #9b9488, #c8c4bc);
+
 		border: 1px solid #d0cbbd;
 	}
 
 	.buttons .gray p{
-			color: #9b9488;
+		color: #9b9488;
 	}
 
 	.buttons button img{
@@ -709,16 +707,15 @@ footer p,a{
 		margin-bottom: 10px;
 	}
 
-	.buttons button p{ 
-		font:25px 'MyriadPro-Semibold';
+	.buttons button p{
+		font: 25px 'MyriadPro-Semibold';
 		color: #b58c14;
 	}
 
-	.buttons button span{ 
-		font:14px 'MyPeriadRegular' !important;
+	.buttons button span{
+		font: 14px 'MyPeriadRegular' !important;
 		margin: 0 0 0 -51px;
 	}
-
 
 	.or{
 		margin: 5px 0;
@@ -728,7 +725,7 @@ footer p,a{
 
 	.or:before{
 		content: "";
-		position:absolute;
+		position: absolute;
 		top: 20px;
 		left: -1px;
 		background: url("../images/line-for-or.png") repeat-x;
@@ -738,7 +735,7 @@ footer p,a{
 
 	.or:after{
 		content: "";
-		position:absolute;
+		position: absolute;
 		top: 20px;
 		right: 0px;
 		background: url("../images/line-for-or.png") repeat-x;
@@ -746,19 +743,18 @@ footer p,a{
 		height: 2px;
 	}
 
-	.devices {
+	.devices{
 		display: none;
 	}
 
-
 	.linege{
-		background:none;
+		background: none;
 	}
 
 	.linege div{
 		float: none;
 		margin: 65px 0px 0 51px;
-	
+
 		float: left;
 	}
 
@@ -782,18 +778,18 @@ footer p,a{
 		display: none;
 	}
 
-	.social-network {
+	.social-network{
 		float: right;
 		margin-top: -84px;
 		width: 454px;
 		text-align: center;
 	}
 
-	.social-network a {
+	.social-network a{
 		margin: 2px 0 0 0;
 	}
 
-	.social-network img {
+	.social-network img{
 		margin: 7px 18px;
 	}
 
@@ -802,7 +798,7 @@ footer p,a{
 		height: 200px;
 	}
 
-	.mail {
+	.mail{
 		color: #949498;
 		padding: 12px 14px;
 		margin: 21px auto 0 auto;
@@ -810,8 +806,7 @@ footer p,a{
 		width: 202px;
 	}
 
-
-	footer p,a{
+	footer p, a{
 		color: #7f7f87;
 		font-size: 20px;
 		margin: 59px 0 0 0;
@@ -819,26 +814,25 @@ footer p,a{
 		width: 100%;
 	}
 
-
 	.social-network{
-		float:  none;
+		float: none;
 		margin-top: -195px;
 	}
 
 	.social-network img{
 		margin: 0 10px;
-	
+
 	}
 
 	.social-network a{
 		margin: 0 2px;
-	
+
 	}
 
 }
 
-@media only screen and (max-width:320px) {
-	.wrapper img[src='images/logo.png'] {
+@media only screen and (max-width: 320px){
+	.wrapper img[src='images/logo.png']{
 		display: none;
 	}
 
@@ -854,34 +848,33 @@ footer p,a{
 		background: #33333b;
 		border-radius: 0 0 20px 20px;
 
-		display:-webkit-box;
-		-webkit-box-align:center;
-		-webkit-box-pack:center;
+		display: -webkit-box;
+		-webkit-box-align: center;
+		-webkit-box-pack: center;
 
-		display:-moz-box;
-		-webkit-moz-align:center;
-		-webkit-moz-pack:center;
+		display: -moz-box;
+		-webkit-moz-align: center;
+		-webkit-moz-pack: center;
 	}
-	
+
 	.phone-for-smile{
 		display: block;
 		margin: 40px 0 0 0;
 		background: #000;
 		height: 340px;
 
-				
 		background: url("../images/texture.png") no-repeat;
 		-webkit-background-size: 100% 100%;
-	
+
 		padding-top: 10px;
 	}
 
 	.phone-for-smile img{
 		margin: 0 auto;
 		display: block;
-	
+
 		width: 84%;
-}
+	}
 
 	.phone-for-smile p{
 		color: #525051;
@@ -894,121 +887,122 @@ footer p,a{
 		width: 100%;
 		height: 335px;
 		margin: -10px 0 0 0;
-		background-image: -webkit-radial-gradient(98% 265px, circle contain, rgba(255,255,255,0.4), #000 348px);
-		background-image: -moz-radial-gradient(98% 552px, circle contain, rgba(255,255,255,0.4), #000 607px);
-		background-image: -o-radial-gradient(98% 552px, circle contain, rgba(255,255,255,0.4), #000 607px);
+		background-image: -webkit-radial-gradient(98% 265px, circle contain, rgba(255, 255, 255, 0.4), #000 348px);
+		background-image: -moz-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
+		background-image: -o-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
 	}
 
 	.text-arrow{
 		display: none;
 	}
-	.social {
+
+	.social{
 		margin: -50px 0 0 -47px;
 	}
+
 	.social img{
 		float: right;
-	
+
 		margin: 0 7px 0 7px;
 		width: 12%;
-}
+	}
+
 	.terribile-history{
-	float: left;
-	margin: 48px 0 0 10%;
-}
+		float: left;
+		margin: 48px 0 0 10%;
+	}
 
-.terribile-history img{
-	float: left;
-	width: 18%;
-}
+	.terribile-history img{
+		float: left;
+		width: 18%;
+	}
 
-.terribile-history p{
-	color: #d0a22b;
-	font-size: 42px;
-	line-height: 0.9;
-	margin: -9px 0 0 0;
-	text-shadow: 2px 2px 2px rgba(0,0,0,0.9);
-	width: 350px;
-	padding-left: 10px;
-}
+	.terribile-history p{
+		color: #d0a22b;
+		font-size: 42px;
+		line-height: 0.9;
+		margin: -9px 0 0 0;
+		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+		width: 350px;
+		padding-left: 10px;
+	}
 
-.terribile-history span{
-	font-size: 17px;
-	color: #525051;
-	margin-top: 100px;
-	position: relative;
-	left: -49px;
-}
+	.terribile-history span{
+		font-size: 17px;
+		color: #525051;
+		margin-top: 100px;
+		position: relative;
+		left: -49px;
+	}
 
-.terribile-history span:after{
-	content: "";
-	position: absolute;
-	height: 2px;
-	width: 82px;
-	right: -14px;
-	top: 11px;
-	background: url("../images/line.png") repeat-x;
-}
+	.terribile-history span:after{
+		content: "";
+		position: absolute;
+		height: 2px;
+		width: 82px;
+		right: -14px;
+		top: 11px;
+		background: url("../images/line.png") repeat-x;
+	}
 
+	.terribile-history span:before{
+		content: "";
+		position: absolute;
+		height: 1px;
+		width: 67px;
+		left: 12px;
+		top: 9px;
+		background: #525152;
+	}
 
-.terribile-history span:before{
-	content: "";
-	position: absolute;
-	height: 1px;
-	width: 67px;
-	left: 12px;
-	top: 9px;
-	background: #525152;
-}
 	.gradient{
 		background-image: -webkit-radial-gradient(98% 446px, circle contain, #fff, #000 437px);
 		background-image: -webkit-radial-gradient(98% 446px, circle contain, #fff, #000 437px);
 		background-image: -webkit-radial-gradient(98% 446px, circle contain, #fff, #000 437px);
 	}
 
-	.apper-think {
+	.apper-think{
 		display: block;
 		text-align: center;
 		font: 20px 'MyPeriadRegular';
 		color: #bcbaab;
-	
+
 		width: 278px;
-	
-}
+
+	}
 
 	.buttons{
 		float: left;
 		margin: 94px 0 0 20%;
-	}	
+	}
 
-
-.buttons button{
+	.buttons button{
 		width: 204px;
 		height: 67px;
-		border: none; 
+		border: none;
 		background: -moz-linear-gradient(top, #b68d15, #e8d87c);
 		background: -webkit-linear-gradient(top, #b68d15, #e8d87c);
 		background: -o-linear-linear-gradient(top, #b68d15, #e8d87c);
-	    background: linear-gradient(top, #b68d15, #e8d87c);
+		background: linear-gradient(top, #b68d15, #e8d87c);
 		border: 1px solid #edb47a;
 		border-radius: 10px;
-	 	box-shadow: 0 2px 1px rgba(0,0,0,0.9);
+		box-shadow: 0 2px 1px rgba(0, 0, 0, 0.9);
 
-	    
-		display:-webkit-box;
-		-webkit-box-orient:horizontal;
-		-webkit-box-align:center;
-		-webkit-box-pack:center;
+		display: -webkit-box;
+		-webkit-box-orient: horizontal;
+		-webkit-box-align: center;
+		-webkit-box-pack: center;
 	}
 
 	.buttons a:active button{
-	    box-shadow:inset 0 2px 1px rgba(0,0,0,0.9);
+		box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.9);
 	}
 
-	@-moz-document url-prefix() {
-		.buttons button {	
-			display:block;
+	@-moz-document url-prefix(){
+		.buttons button{
+			display: block;
 		}
-		.buttons img{	
+		.buttons img{
 			float: left;
 		}
 		.black-background{
@@ -1018,16 +1012,16 @@ footer p,a{
 
 	.buttons .gray{
 		background: -moz-linear-gradient(top, #9b9488, #c8c4bc);
-	    
+
 		background: -webkit-linear-gradient(top, #9b9488, #c8c4bc);
-	    background: -o-linear-linear-gradient(top, #9b9488, #c8c4bc);
-	    background: linear-gradient(top, #9b9488, #c8c4bc);
-	    
+		background: -o-linear-linear-gradient(top, #9b9488, #c8c4bc);
+		background: linear-gradient(top, #9b9488, #c8c4bc);
+
 		border: 1px solid #d0cbbd;
 	}
 
 	.buttons .gray p{
-			color: #9b9488;
+		color: #9b9488;
 	}
 
 	.buttons button img{
@@ -1042,16 +1036,15 @@ footer p,a{
 		margin-bottom: 10px;
 	}
 
-	.buttons button p{ 
-		font:25px 'MyriadPro-Semibold';
+	.buttons button p{
+		font: 25px 'MyriadPro-Semibold';
 		color: #b58c14;
 	}
 
-	.buttons button span{ 
-		font:14px 'MyPeriadRegular' !important;
+	.buttons button span{
+		font: 14px 'MyPeriadRegular' !important;
 		margin: 0 0 0 -51px;
 	}
-
 
 	.or{
 		margin: 5px 0;
@@ -1061,7 +1054,7 @@ footer p,a{
 
 	.or:before{
 		content: "";
-		position:absolute;
+		position: absolute;
 		top: 20px;
 		left: 1px;
 		background: url("../images/line-for-or.png") repeat-x;
@@ -1071,7 +1064,7 @@ footer p,a{
 
 	.or:after{
 		content: "";
-		position:absolute;
+		position: absolute;
 		top: 20px;
 		right: 0px;
 		background: url("../images/line-for-or.png") repeat-x;
@@ -1079,21 +1072,19 @@ footer p,a{
 		height: 2px;
 	}
 
-	.devices {
+	.devices{
 		display: none;
 	}
 
-
 	.linege{
-		background:none;
+		background: none;
 	}
 
 	.linege div{
 		float: none;
-	
-	
+
 		margin: 20px auto;
-}
+	}
 
 	.linege p{
 		font-size: 25px;
@@ -1115,18 +1106,18 @@ footer p,a{
 		display: none;
 	}
 
-	.social-network {
+	.social-network{
 		float: right;
 		margin-top: -275px;
 		width: 292px;
 		text-align: center;
 	}
 
-	.social-network a {
+	.social-network a{
 		margin: 2px 0 0 0;
 	}
 
-	.social-network img {
+	.social-network img{
 		margin: 7px 18px;
 	}
 
@@ -1135,7 +1126,7 @@ footer p,a{
 		height: 200px;
 	}
 
-	.mail {
+	.mail{
 		color: #949498;
 		padding: 12px 14px;
 		margin: 21px auto 0 auto;
@@ -1143,8 +1134,7 @@ footer p,a{
 		width: 202px;
 	}
 
-
-	footer p,a{
+	footer p, a{
 		color: #7f7f87;
 		font-size: 20px;
 		margin: 109px 0 0 0;
@@ -1152,15 +1142,13 @@ footer p,a{
 		width: 95%;
 	}
 
-
-
 	.social-network img{
 		margin: 5px 10px;
-	
+
 	}
 
 	.social-network a{
 		margin: 0 2px;
-	
+
 	}
 }
