@@ -916,9 +916,9 @@ footer p, a{
 	.terribile-history img{
 		float: left;
 		width: 18%;
-	
+
 		margin: 0px 10px 0 0;
-}
+	}
 
 	.terribile-history p{
 		color: #d0a22b;
@@ -933,7 +933,7 @@ footer p, a{
 	.terribile-history span{
 		font-size: 17px;
 		color: #525051;
-		margin-top: 100px;
+		margin-top: 72px;
 		position: relative;
 		left: -49px;
 	}
@@ -972,7 +972,9 @@ footer p, a{
 
 		width: 278px;
 
-	}
+	
+		margin: 0 auto;
+}
 
 	.buttons{
 		float: left;
@@ -1152,6 +1154,5 @@ footer p, a{
 
 	.social-network a{
 		margin: 0 2px;
-
 	}
 }

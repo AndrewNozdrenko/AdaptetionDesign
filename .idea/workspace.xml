@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ca515c4-c9f5-4cd0-903d-c36aca418472" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/css.css" afterPath="$PROJECT_DIR$/css/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AdaptetionDesign.iws" />
@@ -26,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="21" selection-start="1675" selection-end="1675" vertical-scroll-proportion="-24.192308" vertical-offset="357" max-vertical-offset="2142">
+            <state line="13" column="32" selection-start="350" selection-end="350" vertical-scroll-proportion="-1.8129497" vertical-offset="1481" max-vertical-offset="2176">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="css.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="872" column="18" selection-start="14020" selection-end="14020" vertical-scroll-proportion="0.481276" vertical-offset="14477" max-vertical-offset="19771">
+            <state line="1153" column="22" selection-start="18551" selection-end="18551" vertical-scroll-proportion="0.0" vertical-offset="15157" max-vertical-offset="19754">
               <folding />
             </state>
           </provider>
@@ -57,8 +58,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/css.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -137,6 +138,7 @@
     <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="D:/nginx-1.6.0/html/abbott/serc" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -233,16 +235,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="21" selection-start="1675" selection-end="1675" vertical-scroll-proportion="-24.192308" vertical-offset="357" max-vertical-offset="2142">
+        <state line="1153" column="22" selection-start="18551" selection-end="18551" vertical-scroll-proportion="0.0" vertical-offset="15157" max-vertical-offset="19754">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="872" column="18" selection-start="14020" selection-end="14020" vertical-scroll-proportion="0.481276" vertical-offset="14477" max-vertical-offset="19771">
+        <state line="13" column="32" selection-start="350" selection-end="350" vertical-scroll-proportion="-1.8129497" vertical-offset="1481" max-vertical-offset="2176">
           <folding />
         </state>
       </provider>
