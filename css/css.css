@@ -524,11 +524,9 @@ footer p, a{
 		float: left;
 		background: #33333b;
 		border-radius: 0 0 20px 20px;
-
 		display: -webkit-box;
 		-webkit-box-align: center;
 		-webkit-box-pack: center;
-
 		display: -moz-box;
 		-webkit-moz-align: center;
 		-webkit-moz-pack: center;
@@ -539,16 +537,17 @@ footer p, a{
 		margin: 40px 0 0 0;
 		background: #000;
 		height: 455px;
-
-		background: url("../images/texture.png") no-repeat;
-		-webkit-background-size: 100% 100%;
-
+		background-image: -webkit-radial-gradient(99% 424px, circle contain, rgba(255, 255, 255, 0.3), #000 607px);
+		background-image: -moz-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
+		background-image: -o-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
 		padding-top: 10px;
 	}
 
 	.phone-for-smile img{
 		margin: 0 auto;
 		display: block;
+		position: relative;
+		z-index: 2;
 	}
 
 	.phone-for-smile p{
@@ -556,19 +555,19 @@ footer p, a{
 		margin: 15px auto;
 		display: block;
 		width: 100px;
+		position: relative;
+		z-index: 2;
 	}
 
 	.phone-for-smile div{
-
 		width: 100%;
-
 		height: 450px;
-
-		margin: -10px 0 0 0;
-
-		background-image: -webkit-radial-gradient(99% 424px, circle contain, rgba(255, 255, 255, 0.3), #000 607px);
-		background-image: -moz-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
-		background-image: -o-radial-gradient(98% 552px, circle contain, rgba(255, 255, 255, 0.4), #000 607px);
+		margin: 5px 0 0 0;
+		background: url("../images/texture.png") no-repeat;
+		-webkit-background-size: 100% 100%;
+		position: absolute;
+		z-index: 0;
+		opacity: 0.7;
 	}
 
 	.text-arrow{
@@ -683,11 +682,9 @@ footer p, a{
 
 	.buttons .gray{
 		background: -moz-linear-gradient(top, #9b9488, #c8c4bc);
-
 		background: -webkit-linear-gradient(top, #9b9488, #c8c4bc);
 		background: -o-linear-linear-gradient(top, #9b9488, #c8c4bc);
 		background: linear-gradient(top, #9b9488, #c8c4bc);
-
 		border: 1px solid #d0cbbd;
 	}
 
